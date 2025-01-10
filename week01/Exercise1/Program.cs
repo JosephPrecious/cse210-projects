@@ -6,12 +6,12 @@ internal class Program
     {
         Console.WriteLine("Hello Welcome. Can you give us your name ");
 
-        Console.WriteLine("what is your first Name?");
-        string first_name = Console.ReadLine();
+        Console.WriteLine("what is your first Name?" );
+        string firstName = Console.ReadLine();
 
-        Console.WriteLine("what is your last name?");
-        string last_name = Console.ReadLine();
+        Console.WriteLine("what is your last name?" );
+        string lastName = Console.ReadLine();
 
-        Console.WriteLine(value: $"Your name is {first_name}, {last_name} {first_name}");
+        Console.WriteLine(value: $"Your name is {lastName}, {firstName} {lastName}");
     }
 }
