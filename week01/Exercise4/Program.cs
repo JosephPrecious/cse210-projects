@@ -11,7 +11,7 @@ class Program
         List<int> numbers = new List<int>();
 
         int numberFromUSer = -1;
-        while (numberFromUSer != 0)
+        do
         {
             Console.Write("Enter a list of numbers, (type 0 when finished): ");// get input from the user
             
@@ -23,6 +23,8 @@ class Program
                 numbers.Add(numberFromUSer);
             }
         }
+        while (numberFromUSer != 0);
+
          int sumTotal = 0;
         foreach (int number in numbers)
         {
