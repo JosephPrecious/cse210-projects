@@ -36,6 +36,12 @@ internal class Program
                 Console.WriteLine("you guessed it Right!");
             }
 
+            /*int[] guessCounte = { guess2 };
+            foreach (int guess3 in guessCounte)
+            {
+                Console.Write($"you've guessed {guess3} so far");
+            }*/
+
         }
     }
 }
