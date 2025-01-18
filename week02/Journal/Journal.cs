@@ -13,7 +13,7 @@ public class Journal
         Console.WriteLine("Entry added successfully.");
     }
 
-    public void DisplayEntries()
+    public void DisplayEntries ()
     {
         if (_entries.Count == 0)
         {
